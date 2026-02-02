@@ -1,14 +1,14 @@
 //
-//  ContentView.swift
+//  EditEntryView.swift
 //  Omoi
 //
-//  Created by Sudharsan Baskaran on 04/11/25.
+//  Created by Sudharsan Baskaran on 10/11/25.
 //
 
 import SwiftUI
 import CoreData
 
-struct HomeView: View {
+struct EditEntryView: View {
     @Environment(\.managedObjectContext) private var viewContext
 
     // Fetch all JournalEntry items sorted by date (newest first)
@@ -76,6 +76,6 @@ struct HomeView: View {
     }
 }
 #Preview {
-    HomeView()
+    EditEntryView()
         .environment(\.managedObjectContext, PersistenceController.preview.container.viewContext)
 }

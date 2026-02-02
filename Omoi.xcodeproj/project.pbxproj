@@ -11,6 +11,21 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
+		48176E8A2F30A04C00951A19 /* Views */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Views;
+			sourceTree = "<group>";
+		};
+		48176E8B2F30A08600951A19 /* App */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = App;
+			sourceTree = "<group>";
+		};
+		48176E8C2F30A09E00951A19 /* Omoi data */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Omoi data";
+			sourceTree = "<group>";
+		};
 		48B77B322EB9BF0200CF9689 /* Omoi */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = Omoi;
@@ -34,6 +49,9 @@
 			children = (
 				48B77B322EB9BF0200CF9689 /* Omoi */,
 				48B77B312EB9BF0200CF9689 /* Products */,
+				48176E8B2F30A08600951A19 /* App */,
+				48176E8A2F30A04C00951A19 /* Views */,
+				48176E8C2F30A09E00951A19 /* Omoi data */,
 			);
 			sourceTree = "<group>";
 		};
@@ -61,6 +79,9 @@
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
+				48176E8A2F30A04C00951A19 /* Views */,
+				48176E8B2F30A08600951A19 /* App */,
+				48176E8C2F30A09E00951A19 /* Omoi data */,
 				48B77B322EB9BF0200CF9689 /* Omoi */,
 			);
 			name = Omoi;
